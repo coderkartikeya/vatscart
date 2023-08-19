@@ -1,0 +1,77 @@
+.nav{
+    height: 60px;
+    background-color: rgb(233, 246, 246);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    /* justify-content: space-between; */
+    
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    gap: 315px;
+    
+}
+
+.nav-title{
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 30px;
+    background-color: black;
+    border-radius: 2em;
+    padding: 10px;
+    gap: 10px;
+}
+
+.search input{
+    width: inherit;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2em;
+}
+
+.cart{
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:768px){
+    .nav{
+        background-size: inherit;
+        gap:30px;
+    }
+    .nav-title{
+        
+        font-size: 10px;
+        gap: 5px;
+    }
+
+    .search{
+        padding: 10px;
+        width: 35vw;
+
+        gap: 2px;
+    }
+    .search_icon{
+        font-size: 5px;
+    }
+
+
+}

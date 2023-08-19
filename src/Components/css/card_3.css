@@ -1,0 +1,43 @@
+.card_3{
+    width: 93vw;
+    margin: 10px;
+    display: flex;
+    border-radius: 1em;
+    height: 30vh;
+    background:whitesmoke;
+    opacity: 0.8;
+    box-shadow: 3px 4px 4px black;
+
+}
+.card_3:hover{
+    background-color: rgb(209, 209, 222);
+}
+.card_3-image{
+    width: 30%;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.card_3-image img{
+    padding: 20px;
+}
+
+.card_3-content{
+    align-items: center;
+    color: black;
+    font-size: 28px;
+}
+
+@media only screen and (max-width:768px){
+    .card_3{
+        height: 20vh;
+    }
+
+    .card_3-image img{
+        width: 75px;
+        height: 15vh;
+    }
+    .card_3-content{
+        font-size: 15px;
+    }
+}

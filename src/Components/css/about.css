@@ -1,0 +1,37 @@
+.about_product{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* height: 100vh; */
+    background-size: cover;
+    /* margin-top: 70px; */
+    padding-top: 70px;
+
+    background: #085078;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 10px;
+    
+}
+
+/* .about_projuct{
+    margin:60px;
+} */
+
+
+
+.ma-pr-ab img{
+    height: 178px;
+
+
+}
+
+@media only screen and (max-widht:768px){
+    .about_product{
+        overflow-y: scroll;
+    }
+}

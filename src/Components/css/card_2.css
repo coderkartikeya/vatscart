@@ -1,0 +1,39 @@
+.card_2{
+    height: 20vh;
+    width: 20vw;
+    border-radius: 2em;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: 2px 3px 4px white;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    gap: 3px;
+}
+
+.card_2:hover{
+    background-color: gray;
+    animation: ease-out ;
+}
+.card_2 img{
+    background-size: cover;
+    height: 150px;
+    border-radius: 2em;
+}
+
+@media only screen and (max-width:768px){
+    .card_2{
+        height: 17vh;
+        width: 75vw;
+        /* flex-direction: row; */
+        /* margin: 10px; */
+    }
+
+    .card_2 h3{
+        font-size: 15px;
+    }
+}
