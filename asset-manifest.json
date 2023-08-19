@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/vatscart/static/css/main.0066c124.css",
+    "main.js": "/vatscart/static/js/main.ba111a04.js",
+    "static/media/login_bg2.jpg": "/vatscart/static/media/login_bg2.764c542f19e12e322696.jpg",
+    "index.html": "/vatscart/index.html",
+    "main.0066c124.css.map": "/vatscart/static/css/main.0066c124.css.map",
+    "main.ba111a04.js.map": "/vatscart/static/js/main.ba111a04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0066c124.css",
+    "static/js/main.ba111a04.js"
+  ]
+}
